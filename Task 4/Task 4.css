@@ -1,0 +1,698 @@
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+
+li{
+  float: left;
+}
+
+li a {
+display: block;
+padding: 8px;
+text-decoration: none;
+color: black;
+font-family: Arial, sans-serif;
+font-size: 16px;
+margin-left: 40px;
+font-weight: bold;
+margin-top: 10px;
+
+}
+
+
+a:hover{
+  color:rgb(32, 36, 36);
+}
+
+div.nav{
+  margin-left: 170px;
+  margin-top: 20px;
+}
+
+img{
+  margin-top: -15px; 
+  position: absolute;
+  margin-left: 30px;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  font-weight: bold;
+  color: black;
+font-family: Arial, sans-serif;
+
+
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(243, 227, 227);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+
+}
+
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: absolute;
+  font-weight: bold;
+}
+
+.button1 {
+  background-color: rgb(36, 167, 91); 
+  color: white; 
+  border: 2px solid;
+  margin-top: -45px;
+  margin-left: 950px;
+}
+
+.button1:hover {
+  background-color: #446b45;
+  color: white;
+}
+
+
+.gradient-button {
+  position: absolute;
+    margin-top: 60px;
+    margin-left: -85px;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 13px;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% ;
+    color: rgb(70, 69, 69);
+    width: 600px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+    display: inline;
+    border-radius: 25px;
+    
+}
+
+
+.gradient-button-2 {background-image: linear-gradient(to right, #2BC0E4 0%, #EAECC6 51%, #2BC0E4 100%)}
+.gradient-button-2:hover { background-position: right center; }
+
+
+#A{
+  position: absolute;
+  margin-top: 150px;
+  margin-left: -70px;
+  font-size: 50px;
+  color: #004c3f;
+
+}
+
+
+#B{
+  position: absolute;
+  margin-top: 350px;
+  margin-left: -70px;
+  font-size: 20px;
+  color: #6b7177;
+
+}
+
+input{
+  position: absolute;
+  margin-top: 450px;
+  margin-left: -70px;
+  padding: 15px;
+  width: 300px;
+  border-radius: 5px;
+  border-style: .005px solid rgb(36, 34, 34);
+  font-size: 15px;
+}
+
+.button2{
+  position: absolute;
+  margin-top: 515px;
+  margin-left: -70px;
+  padding: 15px;
+  width: 330px;
+  border-radius: 5px;
+  font-size: 15px;
+  background-color: #046353;
+
+}
+
+.button2:hover {
+  background-color: #04493e;
+  color: white;
+}
+
+#c{
+
+  position: absolute;
+  margin-top: 590px;
+  margin-left: -70px;
+  font-size: 13px;
+  color: #3c3d3f;
+}
+
+#img1{
+
+  margin-top: 150px; 
+  position: absolute;
+  margin-left: 450px;
+
+}
+
+#dv1{
+position: absolute;
+width: 100% ;
+height: 1300px;
+background-color: #046353;
+margin-top: 700px;
+margin-left: -180px;
+
+}
+
+#d{
+
+  position: absolute;
+  margin-top: 800px;
+  margin-left: -70px;
+  font-size: 13px;
+  color: white;
+  font-size: 48px;
+
+}
+
+
+
+#e{
+
+position: absolute;
+margin-top: 880px;
+margin-left: -70px;
+font-size: 13px;
+color: white;
+font-size: 18px;
+
+}
+
+
+#f{
+
+position: absolute;
+margin-top: 930px;
+margin-left: -70px;
+font-size: 13px;
+color: white;
+font-size: 18px;
+
+}
+
+#img2{
+  margin-top: 980px; 
+  position: absolute;
+  margin-left: 900px;
+
+}
+
+#img3{
+  margin-top: 980px; 
+  position: absolute;
+  margin-left: 650px;
+
+}
+
+#img4{
+  margin-top: 980px; 
+  position: absolute;
+  margin-left: 400px;
+
+}
+
+#img5{
+  margin-top: 980px; 
+  position: absolute;
+  margin-left: 150px;
+
+}
+
+#img6{
+  margin-top: 980px; 
+  position: absolute;
+  margin-left: -100px;
+
+}
+
+#g{
+  margin-top: 1400px; 
+  position: absolute;
+  margin-left: -100px;
+  color: white;
+  font-size: 15px;
+}
+
+#h{
+  margin-top: 1400px; 
+  position: absolute;
+  margin-left: 150px;
+  color: white;
+  font-size: 15px;
+}
+
+#i{
+  margin-top: 1400px; 
+  position: absolute;
+  margin-left: 400px;
+  color: white;
+  font-size: 15px;
+
+
+}
+
+#j{
+  margin-top: 1400px; 
+  position: absolute;
+  margin-left: 650px;
+  color: white;
+  font-size: 15px;
+}
+
+#k{
+  margin-top: 1400px; 
+  position: absolute;
+  margin-left: 900px;
+  color: white;
+  font-size: 15px;
+}
+
+
+#l{
+  margin-top: 1600px; 
+  position: absolute;
+  margin-left: -100px;
+  color: white;
+  font-size: 35px;
+}
+
+#m{
+
+  margin-top: 1800px; 
+  position: absolute;
+  margin-left: -160px;
+  color: white;
+  font-size: 20px;
+
+}
+
+
+#n{
+  margin-top: 1800px; 
+  position: absolute;
+  margin-left: 180px;
+  color: white;
+  font-size: 20px;
+
+
+}
+
+#o{
+  margin-top: 1800px; 
+  position: absolute;
+  margin-left: 515px;
+  color: white;
+  font-size: 20px;
+
+}
+
+#p{
+  margin-top: 1800px; 
+  position: absolute;
+  margin-left: 840px;
+  color: white;
+  font-size: 20px;
+}
+
+#q{
+
+  margin-top: 2100px; 
+  position: absolute;
+  margin-left: 200px;
+  color: black;
+  font-size: 40px;
+}
+
+#r{
+  margin-top: 2170px; 
+  position: absolute;
+  margin-left: 150px;
+  color: rgb(75, 72, 72);
+  font-size: 25px;
+}
+
+
+#s{
+  margin-top: 2400px; 
+  position: absolute;
+  margin-left: 700px;
+  color: black;
+  font-size: 40px;
+
+}
+
+
+#t{
+
+  margin-top: 2490px; 
+  position: absolute;
+  margin-left: 600px;
+  color: rgb(75, 72, 72);
+  font-size: 20px;
+
+
+}
+
+
+#u{
+  margin-top: 2600px; 
+  position: absolute;
+  margin-left: 600px;
+  color: #008060;
+  font-size: 25px;
+}
+
+#img7{
+
+  margin-top: 2800px; 
+  position: absolute;
+  margin-left: 550px;
+
+}
+
+
+#v{
+  margin-top: 2980px; 
+  position: absolute;
+  margin-left: 50px;
+  color: black;
+  font-size: 35px;
+
+}
+
+#w{
+
+  margin-top: 3050px; 
+  position: absolute;
+  margin-left: -40px;
+  color: rgb(75, 72, 72);
+  font-size: 20px;
+
+}
+
+#x{
+
+  margin-top: 3170px; 
+  position: absolute;
+  margin-left: -40px;
+  color: black;
+  font-size: 25px;
+}
+
+#y{
+
+  margin-top: 3500px; 
+  position: absolute;
+  margin-left: -90px;
+  color: black;
+  font-size: 35px;
+}
+
+#z{
+  margin-top: 3730px; 
+  position: absolute;
+  margin-left: -90px;
+  color: #008060;
+  font-size: 25px;
+
+
+}
+
+
+
+
+
+
+#box {
+  background:url(https://cdn.rawgit.com/ManzDev/cursos-assets/gh-pages/css3/earth-2.jpg);
+  background-size:cover;
+  border:2px solid #000;
+  border-radius:50%;
+  width:700px;
+  height:700px;
+  animation: movimiento 5s linear 0s infinite;
+  box-shadow:0 0 25px RGBA(255,255,255, 0.10),
+             -8px -8px 15px #000 inset,
+             2px 2px 25px #000 inset,
+             -45px -45px 25px RGBA(0,0,0, 0.5) inset, 
+             25px 25px 45px RGBA(0,0,0, 0.45) inset;
+  margin:6em auto;
+  position: absolute;
+  margin-top: 3870px;
+  margin-left: 120px;
+  transform:rotateX(6deg) rotateY(6deg) rotateZ(6deg);
+}
+
+@keyframes movimiento {
+  0% { background-position:0 0 }
+  100% { background-position:355px 0 }
+}
+
+
+
+#img8{
+
+  margin-top: 4800px; 
+  position: absolute;
+  margin-left: 530px;
+}
+
+#a1{
+  margin-top: 4900px; 
+  position: absolute;
+  margin-left: -90px;
+  color: black;
+  font-size: 35px;
+}
+
+#b1{
+  margin-top: 5050px; 
+  position: absolute;
+  margin-left: -120px;
+  color: black;
+  font-size: 22px;
+}
+
+#c1{
+  margin-top: 5090px; 
+  position: absolute;
+  margin-left: -130px;
+  color: rgb(75, 72, 72);
+  font-size: 21px;
+}
+
+#d1{
+
+  margin-top: 5190px; 
+  position: absolute;
+  margin-left: -130px;
+  color: #008060;
+  font-size: 21px;
+}
+
+#e1{
+
+  margin-top: 5050px; 
+  position: absolute;
+  margin-left: 250px;
+  color: black;
+  font-size: 22px;
+
+}
+
+#f1{
+
+  margin-top: 5090px; 
+  position: absolute;
+  margin-left: 200px;
+  color: rgb(75, 72, 72);
+  font-size: 21px;
+}
+
+#g1{
+
+  
+  margin-top: 5200px; 
+  position: absolute;
+  margin-left: 200px;
+  color: #008060;
+  font-size: 21px;
+}
+
+#h1{
+
+  margin-top: 5300px; 
+  position: absolute;
+  margin-left: -120px;
+  color: black;
+  font-size: 22px;
+ 
+}
+
+#i1{
+  margin-top: 5350px; 
+  position: absolute;
+  margin-left: -120px;
+  color: rgb(75, 72, 72);
+  font-size: 21px;
+
+}
+
+
+#j1{
+
+  margin-top: 5450px; 
+  position: absolute;
+  margin-left: -120px;
+  color: #008060;
+  font-size: 21px;
+}
+
+
+#dv2{
+  position: absolute;
+width: 100% ;
+height: 1050px;
+background-color: #033d33;
+margin-top: 5700px;
+margin-left: -180px;
+
+}
+
+
+.column1{
+  position: absolute;
+  display: block;
+  margin-left: 700px;
+  margin-right: auto;
+  margin-top: 50px;
+  z-index: 1;
+  border-radius: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+
+.column2{
+
+  position: absolute;
+  display: block;
+  margin-left: 250px;
+  margin-right: auto;
+  margin-top: 65px;
+  z-index: 1;
+  border-radius: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.column3{
+
+
+  position: absolute;
+  display: block;
+  margin-left: 490px;
+  margin-right: auto;
+  margin-top: 65px;
+  z-index: 1;
+  border-radius: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.column4{
+
+  position: absolute;
+  display: block;
+  margin-left: 740px;
+  margin-right: auto;
+  margin-top: 65px;
+  z-index: 1;
+  border-radius: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.column5{
+  position: absolute;
+  display: block;
+  margin-left: 950px;
+  margin-right: auto;
+  margin-top: 65px;
+  z-index: 1;
+  border-radius: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+#k1{
+
+  margin-top: 800px; 
+  position: absolute;
+  margin-left: 850px;
+  color: white;
+  font-size: 21px;
+
+
+}

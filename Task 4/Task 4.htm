@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Shopify</title>
+
+<link rel="stylesheet" href="Task 4.css">
+
+</head>
+<body style="background-color: rgb(245, 245, 220)">
+
+  <img src="data:image/png;base64,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" alt="Shopify" width="130px" height="80px">
+<div class="nav">
+<ul >
+<li>
+  <div class="dropdown">
+    <button class="dropbtn">Start 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Start your business</a>
+      <a href="#">Branding</a>
+      <a href="#">Online presence</a>
+    </div>
+  </div> 
+
+<li>
+  <div class="dropdown">
+    <button class="dropbtn">Sell 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Sell everywhere</a>
+      <a href="#">Online store</a>
+      <a href="#">Point of Sale</a>
+      <a href="#">Buy Button</a>
+      <a href="#">Checkout</a>
+      <a href="#">Sales channels</a>
+      <a href="#">Wholesale marketplace</a>
+      <a href="#">Custom storefront tools</a>
+      <a href="#">International commerce</a>
+
+    </div>
+  </div> 
+</li>
+
+<li>
+  
+  <div class="dropdown">
+    <button class="dropbtn">Market 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Market your business</a>
+      <a href="#">Email marketing</a>
+      <a href="#">Marketing automation</a>
+      <a href="#">Customer groups</a>
+      <a href="#">Business chat</a>
+      <a href="#">Facebook Ads</a>
+
+    </div>
+  </div> 
+
+</li>
+<li>
+  
+  <div class="dropdown">
+    <button class="dropbtn">Manage 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Manage everything</a>
+      <a href="#">Payments</a>
+      <a href="#">Balance</a>
+      <a href="#">Capital</a>
+      <a href="#">Shipping</a>
+      <a href="#">Ecommerce automation</a>
+
+    </div>
+  </div> 
+
+
+</li>
+<li><a href="#Pricing" style="margin-left:350px;">Pricing</a></li>
+<li>
+  
+  
+  <div class="dropdown" style="margin-top: 5px;
+  ">
+    <button class="dropbtn">Learn 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Help Center</a>
+      <a href="#">Blog</a>
+      <a href="#">Business Courses</a>
+      <a href="#">Guides</a>
+      <a href="#">Shopify Community</a>
+      <a href="#">Podcasts</a>
+      <a href="#">Community Events</a>
+      <a href="#">Research</a>
+      <a href="#">Editions</a>
+    </div>
+  </div> 
+
+
+</li>
+<li><a  href="#Log"  style="margin-left: 5px;
+  ">Log in</a></li>
+
+</ul>
+
+
+<button class="button button1">Start free trial</button>
+
+<a class="gradient-button gradient-button-2">Shopify Editions, Summer ,22 is here | Discover 100+ new features -> </a><br />
+
+<h1 id="A">The Platform <br>
+commerce is <br>
+built on</h1>
+
+
+
+<h1 id="B">Millions of the world's most successful <br>
+  brands trust Shopify to sell, ship and <br>
+  process payments anywhere.</h1>
+
+  <input type="email" placeholder="Enter your email address">
+  
+  <button class="button button2">Start free trial</button>
+
+  <h1 id="c">Try Shopify free for 14 days, no credit card required. By entering <br>
+    your email, you agree to receive marketing emails from Shopify.</h1>
+  
+
+
+
+    <img id="img1" src="https://cdn.shopify.com/shopifycloud/brochure/assets/home/hero/en/hero-product@tablet-dcee1276b5e044d7e201cd88922474aa3676c3133222b6946a578f01f5367589.png"  width="650" height="400">
+
+
+    <div id="dv1"></div>
+
+
+    <h1 id="d">Bring your business online</h1>
+    <h1 id="e">Create an ecommerce website backed by powerful tools that help you find customers, drive sales, and manage your day-to-day.</h1>
+    <h1 id="f">Explore more examples →  </h1>
+
+    <img id="img2" src="https://cdn.shopify.com/shopifycloud/brochure/assets/merchants/miss-boon/home-example-small-8bb452f93af6069b33cdc00d9fab7cacaa32d34684bda58e13eb25faadeb2b72.jpg"  width="230" height="400">
+    <img id="img3" src="https://cdn.shopify.com/shopifycloud/brochure/assets/merchants/then-i-met-you/home-example-small-873ea125aea32650f2e2c282609c62a63be928583b8830cc67df98feff30ca89.jpg"  width="230" height="400">
+    <img id="img4" src="https://cdn.shopify.com/shopifycloud/brochure/assets/merchants/detour-coffee/home-example-small-10f5c2735cb72e18af4d47a31a72326b3eb1f0611963d69d12a51ed31bed4acd.jpg"  width="230" height="400">
+    <img id="img5" src="https://cdn.shopify.com/shopifycloud/brochure/assets/merchants/corey-moranis/home-example-small-6cf57deaaf9e7c38f45de3d300080353843430c1be3ab0ed3cd5e21b93157de8.jpg"  width="230" height="400">
+    <img id="img6" src="https://cdn.shopify.com/shopifycloud/brochure/assets/merchants/alfred/home-example-small-4bc93b93a9d345329480ea6e387cf6890323170a70473bad69a87424cad52e28.jpg"  width="230" height="400">
+
+    <h1 id="g">FOOD & DRINK <br>
+    Alfred
+    </h1>
+
+    <h1 id="h">JEWELRY <br>
+      Corey Moranis
+      </h1>
+
+      <h1 id="i">FOOD & DRINK <br>
+        Detour Coffee
+        </h1>
+
+        <h1 id="j">BEAUTY & COSMETICS <br>
+          Then I Met You
+          </h1>
+
+
+          <h1 id="k">HOME & GARDEN <br>
+            Miss Boon
+            </h1>
+
+
+            <h1 id="l">Take the best path forward</h1>
+  
+            <h1 id="m">Start an online business <br>
+              Create a business, whether you’ve<br>
+              got a fresh idea or are looking for a<br>
+              new way to make money.
+            </h1>
+
+            <h1 id="n">Move your business online<br>
+              Turn your retail store into an online<br>
+              store and keep serving customers<br>
+              without missing a beat.
+            </h1>
+
+            <h1 id="o">Switch to Shopify<br>
+              Bring your business to Shopify, no<br>
+              matter which ecommerce platform<br>
+              you’re currently using.
+            </h1>
+
+
+            <h1 id="p">Hire a Shopify expert<br>
+              Get set up with the help of a trusted<br>
+              freelancer or agency from the<br>
+              Shopify Experts Marketplace.
+            </h1>
+
+
+
+            <h1 id="q">With you wherever you’re going  
+            </h1>
+
+
+            <h1 id="r">One platform with all the ecommerce and point of sale features<br>
+              you need to start, run, and grow your business.<br>
+            </h1>
+
+
+
+            <video  playsinline="playsinline"  data-autoplay="true" width="500" height="400" controls autoplay muted style="position:absolute; margin-top:2300px;" >
+              <source src="https://cdn.shopify.com/shopifycloud/brochure/assets/home/sell-animation-desktop-1b186d853b04bce6dbc12bb63bd5bc4bc1ff60cd1a06fd12f85261c8acc66d0a.webm" type="video/mp4">
+              <source src="https://cdn.shopify.com/shopifycloud/brochure/assets/home/sell-animation-desktop-1b186d853b04bce6dbc12bb63bd5bc4bc1ff60cd1a06fd12f85261c8acc66d0a.webm" type="video/ogg">
+            </video>  
+  
+
+            <h1 id="s">Sell everywhere
+            </h1>
+
+            <h1 id="t">Use one platform to sell products to anyone, anywhere—in<br>
+              person with Point of Sale and online through your website, social<br>
+              media, and online marketplaces.
+            </h1>
+
+
+            <h1 id="u">Explore ways to sell
+            </h1>
+
+
+            <img id="img7" src="https://cdn.shopify.com/shopifycloud/brochure/assets/home/market-small-084eab2d72b510555838c446501d27dd7380585450efcaaa97453289b2b69c79.jpg"  width="550" height="500">
+
+            <h1 id="v">Market your business
+            </h1>
+
+
+            <h1 id="w">Take the guesswork out of marketing with built-in tools that helpt<br>
+              you create, execute, and analyze digital marketing campaigns.
+            </h1>
+
+            <h1 id="x">Explore how to market your business
+            </h1>
+
+
+            <h1 id="y">Empowering independent business<br>
+              owners everywhere<br><br>
+              Millions of businesses in 175 countries around the world have<br>
+              made over $496 billion USD in sales using Shopify.
+            </h1>
+
+            <h1 id="z">Learn more about Shopify
+            </h1>
+
+
+            <div id="box"></div>
+          
+
+
+            <img id="img8" src="https://cdn.shopify.com/shopifycloud/brochure/assets/home/help@desktop-9a31a38edab7cba3389c5d71eccb81ab32d24e0eeb40c8eac3568d98bc179e1e.jpg"  width="650" height="700">
+
+            <h1 id="a1">Get the help you need,<br>
+              every step of the way
+            </h1>
+
+
+            <h1 id="b1">Shopify support
+            </h1>
+
+
+            <h1 id="c1">Contact support 24/7, whether<br>
+              you’re troubleshooting issues or<br>
+              looking for business advice.
+            </h1>
+
+            <h1 id="d1">Contact support 
+            </h1>
+
+            <h1 id="e1">Shopify App Store
+            </h1>
+
+            <h1 id="f1">Add features and functionality to<br>
+              your business with 6,000+ apps<br>
+              that integrate directly with<br>
+              Shopify.
+            </h1>
+
+            <h1 id="g1">Visit the Shopify App Store
+            </h1>
+
+
+            <h1 id="h1">Shopify Experts Marketplace
+            </h1>
+
+
+            <h1 id="i1">Hire a Shopify expert to help you<br>
+              with everything from store setup<br>
+              to SEO.<br>
+            </h1>
+
+            <h1 id="j1">Explore the Shopify Experts Marketplace 
+            </h1>
+
+            <div id="dv2">
+
+
+              <div class="nav" style="margin-left:10px ;" >
+                <ul>
+                <li ><a href="#home" style="color: white;">About</a></li>
+                <li><a href="#market" style="color: white;">Careers</a></li>
+                <li><a href="#price" style="color: white;">Press and Media</a></li>
+                <li><a href="#blog" style="color: white;">Shopify plus</a></li>
+                <li><a href="#help center" style="color: white;">Sitemap</a></li>
+                </ul>
+       <br>         
+<hr>
+                <div class="column1" style="margin-left:50px; ">
+                  <h3><a style="color:white;text-decoration: none;" href="#Careers">Online Store</a></h3><h3><a href="#Affiliates" style="color:white;text-decoration: none;">Sell online</a></h3><h3><a href="#FAQs" style="color:white;text-decoration: none;">Features</a></h3><h3><a href="#Terms" style="color:white;text-decoration: none;">Examples</a></h3><h3><a href="#Privacy" style="color:white; text-decoration: none;">Website builder</a></h3>
+                  
+                  </div>  
+
+
+                  <div class="column2" >
+                    <h3><a style="color:white;text-decoration: none;" href="#Careers">Ecommerce website</a></h3><h3><a href="#Affiliates" style="color:white;text-decoration: none;">Domain names</a></h3><h3><a href="#FAQs" style="color:white;text-decoration: none;">Themes</a></h3><h3><a href="#Terms" style="color:white;text-decoration: none;">Shopping cart</a></h3><h3><a href="#Privacy" style="color:white; text-decoration: none;">Ecommerce hosting</a></h3>
+                    
+                    </div>  
+  
+                
+                    <div class="column3" >
+                      <h3><a style="color:white;text-decoration: none;" href="#Careers">Mobile commerce</a></h3><h3><a href="#Affiliates" style="color:white;text-decoration: none;">Ecommerce software</a></h3><h3><a href="#FAQs" style="color:white;text-decoration: none;">Online store builder</a></h3><h3><a href="#Terms" style="color:white;text-decoration: none;">Dropshipping Business</a></h3><h3><a href="#Privacy" style="color:white; text-decoration: none;">Store themes</a></h3>
+                      
+                      </div>  
+
+
+                      <div class="column4" >
+                        <h3><a style="color:white;text-decoration: none;" href="#Careers">Point Of Sale</a></h3><h3><a href="#Affiliates" style="color:white;text-decoration: none;">Features</a></h3><h3><a href="#FAQs" style="color:white;text-decoration: none;">Hardware</a></h3>
+                        
+                        </div>  
+  
+    
+                        <div class="column5" >
+                          <h3><a style="color:white;text-decoration: none;" href="#Careers">Support</a></h3><h3><a href="#Affiliates" style="color:white;text-decoration: none;">24/7 support</a></h3><h3><a href="#FAQs" style="color:white;text-decoration: none;">Shopify Help Center</a></h3><h3><a style="color:white;text-decoration: none;" href="#Careers">Shopify Community</a></h3><h3><a style="color:white;text-decoration: none;" href="#Careers">API documentation</a></h3><h3><a style="color:white;text-decoration: none;" href="#Careers">Free tools</a></h3><h3><a style="color:white;text-decoration: none;" href="#Careers">Free stock photos</a></h3><h3><a style="color:white;text-decoration: none;" href="#Careers">Websites for sale</a></h3><h3><a style="color:white;text-decoration: none;" href="#Careers">Logo Maker</a></h3><h3><a style="color:white;text-decoration: none;" href="#Careers">Business name generator</a></h3><h3><a style="color:white;text-decoration: none;" href="#Careers">Reasearch</a></h3><h3><a style="color:white;text-decoration: none;" href="#Careers">Legal</a></h3>
+                          
+                          </div>  
+                          <br>
+                        
+                          <h1 id="k1">Terms of Service  &nbsp &nbsp  Privacy Policy 
+                          </h1>
+              
+
+            </div>
+
+
+
+
+
+          
+          </body>
+</html>
